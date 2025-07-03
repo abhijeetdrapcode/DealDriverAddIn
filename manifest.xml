@@ -6,8 +6,8 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="DealDriverConnection"/>
   <Description DefaultValue="A template to get started."/>
-  <IconUrl DefaultValue="https://abhijeetdrapcode.github.io/DealDriverAddIn/assets/logo.png"/>
-  <HighResolutionIconUrl DefaultValue="https://abhijeetdrapcode.github.io/DealDriverAddIn/assets/logo.png"/>
+  <IconUrl DefaultValue="https://abhijeetdrapcode.github.io/DealDriverAddIn/assets/logo-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://abhijeetdrapcode.github.io/DealDriverAddIn/assets/logo-64.png"/>
   <SupportUrl DefaultValue="https://abhijeetdrapcode.github.io/DealDriverAddIn/taskpane"/>
   <AppDomains>
     <AppDomain>https://abhijeetdrapcode.github.io</AppDomain>
