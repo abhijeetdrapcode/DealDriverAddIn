@@ -913,17 +913,17 @@ sendDealButton.addEventListener("click", async () => {
       //This is the api call being made for R&W
       // https://dealdriverapi.drapcode.co/parseWord
       console.log("THis is working");
-      // const response = await fetch("http://localhost:3002/parseWord", {
-      //   method: "POST",
-      //   headers: {
-      //     "Content-Type": "application/json",
-      //     dealId: dealUuid,
-      //     tenantId: tenantId,
-      //     environment: selectedEnvironmentValue,
-      //     permissions: areaPermissions,
-      //   },
-      //   body: JSON.stringify(formattedCategoryData),
-      // });
+      const response = await fetch("http://localhost:3002/parseWord", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          dealId: dealUuid,
+          tenantId: tenantId,
+          environment: selectedEnvironmentValue,
+          permissions: areaPermissions,
+        },
+        body: JSON.stringify(formattedCategoryData),
+      });
       if (response.ok) {
         const responseData = await response.json();
         showMessage(`${selectedCategory} data sent successfully to ${selectedDealName}`);
