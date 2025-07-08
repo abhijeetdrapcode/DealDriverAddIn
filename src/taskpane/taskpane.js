@@ -911,9 +911,7 @@ sendDealButton.addEventListener("click", async () => {
         formattedCategoryData
       );
       //This is the api call being made for R&W
-      // https://dealdriverapi.drapcode.co/parseWord
-      console.log("THis is working");
-      const response = await fetch("http://localhost:3002/parseWord", {
+      const response = await fetch("https://dealdriverapi.drapcode.co/parseWord", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
